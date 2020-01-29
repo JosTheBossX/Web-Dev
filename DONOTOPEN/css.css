@@ -1,0 +1,26 @@
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    margin-left: 13%;margin-right: 13%;
+}
+
+.column {
+float: left;
+width: 50%;
+
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
